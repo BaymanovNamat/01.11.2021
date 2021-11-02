@@ -1,3 +1,6 @@
+body {
+  background: rgb(245, 241, 241);
+}
 .message {
   padding: 15px;
   border-radius: 15px;
@@ -37,9 +40,7 @@ header h1 {
   flex-grow: 1;
   text-align: center;
 }
-footer {
-  display: flex;
-}
+
 footer input {
   flex-grow: 1;
 }
@@ -54,31 +55,48 @@ header {
   align-items: center;
 }
 footer .btn {
-  border: 2px solid rgb(151, 146, 146);
   border-radius: 80%;
   background-color: lightgray;
   color: white;
   font-size: 25px;
   margin-right: 15px;
+  margin-left: 20px;
+  width: 40px;
 }
 footer .btn-active {
-  border-radius: 70%;
-  background-color: rgb(49, 49, 233);
-  color: white;
-  font-weight: bolder;
+  background: url(./images/strelca.jpg) center/40px;
+  border-radius: 100%;
   margin-left: 15px;
-  font-size: 20px;
+  margin-right: 20px;
+  width: 40px;
+  
 }
 footer input {
   border-radius: 20px;
 }
 header {
-  max-width: 200px;
-  margin: 0 auto;
+  margin-left: 200px;
+  max-width: 400px;
 }
 footer {
+  display: flex;
   background-color: lightgray;
   padding: 10px;
   margin: 10px 10px;
   border-radius: 10px;
 }
+footer .btn span {
+  display: flex;
+  font-weight: 900;
+  justify-content: center;
+  align-items: center;
+}
+footer input[placeholder] {
+  padding-left: 10px;
+}
+footer input {
+  border: none;
+}
+
+
+
