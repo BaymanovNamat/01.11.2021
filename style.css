@@ -1,5 +1,6 @@
 body {
   background: rgb(245, 241, 241);
+  margin: 0;
 }
 .message {
   padding: 15px;
@@ -23,7 +24,8 @@ body {
   border-bottom-right-radius: 0;
 }
 .message-list {
-  background-image: linear-gradient(rgb(248, 70, 70), rgb(30, 15, 238), green, pink
+  background-image: linear-gradient(rgb(248, 70, 70), rgb(30, 15, 238), 
+  rgb(128, 119, 0), rgb(214, 72, 96)
   );
 
 
@@ -31,6 +33,7 @@ body {
   flex-direction: column;
   gap: 15px;
   max-width: 60%;
+  margin-left: 10px;
 }
 header {
   display: flex;
@@ -74,15 +77,11 @@ footer .btn-active {
 footer input {
   border-radius: 20px;
 }
-header {
-  margin-left: 200px;
-  max-width: 400px;
-}
 footer {
   display: flex;
   background-color: lightgray;
-  padding: 10px;
-  margin: 10px 10px;
+  padding: 5px;
+  
   border-radius: 10px;
 }
 footer .btn span {
@@ -97,6 +96,26 @@ footer input[placeholder] {
 footer input {
   border: none;
 }
-
-
-
+footer {
+  margin-top: 10px;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  
+}
+header {
+  display: flex;
+  position: sticky;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  margin-bottom: 10px;
+}
+.message-list {
+  margin-bottom: 10px;
+}
+header a i {
+  color: black;
+  font-size: 25px;
+  padding: 10px;
+}
