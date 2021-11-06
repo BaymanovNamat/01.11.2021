@@ -44,7 +44,10 @@
 .dropdown ul a:hover {
   background-color: rgb(68, 17, 17);
 }
+
+/*
 article {
+  position: relative;
   padding: 10px;
   box-shadow: 0 0 10px purple;
   border-radius: 10px;
@@ -83,4 +86,53 @@ article p:nth-of-type(2n+4) {
 }
 article p:nth-of-type(9) {
   font-size: 25px;
+}*/
+
+.dropdown.dropdown-right {
+  position: absolute;
+  right: 0;
 }
+.dropdown.dropdown-right {
+  right: 0;
+}
+
+footer .btn {
+  font-size: 35px;
+  border-radius: 60%;
+  background-color: red;
+  border: none;
+}
+
+footer .btn  a i {
+ 
+  border-radius: 60%;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+}
+
+footer .btn {
+  position: fixed;
+  bottom: 0;
+  margin: 10px;
+}
+
+
+.page2 .btn-phone {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  border-radius: 60%;
+  background: red;
+  border: none;
+  padding: 10px;
+}
+
+
+.page2 .btn-phone i {
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  border-radius: 60%;
+}
+
+
