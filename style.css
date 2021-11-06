@@ -17,7 +17,11 @@ body {
   border-radius: 15px   15px 15px 1px;
 }
 .message-out {
-  background-image: linear-gradient(rgb(48, 42, 42), rgb(211, 203, 203));
+  background-image: linear-gradient(to left bottom, rgb(48, 42, 42), rgb(211, 203, 203), rgb(57, 238, 57),
+   red,
+   
+
+   purple);
 
   margin-left: 20%;
   align-self: flex-end;
@@ -25,7 +29,7 @@ body {
 }
 .message-list {
   background-image: linear-gradient(rgb(248, 70, 70), rgb(30, 15, 238), 
-  rgb(128, 119, 0), rgb(214, 72, 96)
+  rgb(128, 119, 0), rgb(214, 72, 96), rgb(224, 21, 224)
   );
 
 
